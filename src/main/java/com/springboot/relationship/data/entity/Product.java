@@ -1,12 +1,7 @@
 package com.springboot.relationship.data.entity;
 
 import java.time.LocalDateTime;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 import lombok.*;
 
@@ -33,6 +28,11 @@ public class Product extends BaseEntity{
 
     @Column(nullable = false)
     private Integer stock;
+
+    @OneToOne(mappedBy = "product") // mappedBy="product" 로 연관관계 주인을 ProductDetail 의 product 필드로 지정하였다.
+    @ToString.Exclude               // 연관관계 주인만이 외래키를 등록하거나 수정할 수 있고, 주인이 아닌 쪽은 읽기만 가능하다.
+    //양방향으로 연관관계가 설정되면 ToString 을 사용할 때 순환참조가 발생하기때문에 StackOverFlow 가 발생한다. .Exclude 로 설정하여 차단.
+    private ProductDetail productDetail;
 
 
 }
