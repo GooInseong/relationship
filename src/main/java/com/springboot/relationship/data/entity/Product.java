@@ -39,5 +39,4 @@ public class Product extends BaseEntity{
     @ToString.Exclude
     private Provider provider;
 
-
 }
