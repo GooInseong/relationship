@@ -12,7 +12,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
-@ToString(exclude = "name", callSuper = true)
+@ToString(callSuper = true)
 @Table(name = "product")
 public class Product extends BaseEntity{
 
@@ -33,6 +33,11 @@ public class Product extends BaseEntity{
     @ToString.Exclude               // 연관관계 주인만이 외래키를 등록하거나 수정할 수 있고, 주인이 아닌 쪽은 읽기만 가능하다.
     //양방향으로 연관관계가 설정되면 ToString 을 사용할 때 순환참조가 발생하기때문에 StackOverFlow 가 발생한다. .Exclude 로 설정하여 차단.
     private ProductDetail productDetail;
+
+    @ManyToOne      // 상품과 상품공급자간 다대일 연관관계 설정
+    @JoinColumn(name = "provider_number")
+    @ToString.Exclude
+    private Provider provider;
 
 
 }
