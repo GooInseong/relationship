@@ -53,4 +53,31 @@ public class ProducerRepositoryTest {
         return producerRepository.save(producer);
 
     }
+
+    @Test
+    @Transactional
+    void relationshipTest2(){
+        Product product1= saveProduct("펜",500,1000);
+        Product product2= saveProduct("노트",1000,200);
+        Product product3= saveProduct("지우개",500,50);
+
+        Producer producer1= saveProducer("flature");
+        Producer producer2= saveProducer("wikibooks");
+
+        producer1.addProduct(product1);
+        producer1.addProduct(product2);
+        producer2.addProduct(product2);
+        producer2.addProduct(product3);
+
+        product1.addProducer(producer1);
+        product2.addProducer(producer1);
+        product2.addProducer(producer2);
+        product3.addProducer(producer2);
+
+        producerRepository.saveAll(Lists.newArrayList(producer1,producer2));
+        productRepository.saveAll(Lists.newArrayList(product1,product2,product3));
+
+        System.out.println("products: "+producerRepository.findById(1L).get().getProducts());
+        System.out.println("producers: "+productRepository.findById(1L).get().getProducers());
+    }
 }

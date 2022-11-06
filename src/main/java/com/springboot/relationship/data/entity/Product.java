@@ -1,6 +1,8 @@
 package com.springboot.relationship.data.entity;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 import javax.persistence.*;
 
 import lombok.*;
@@ -39,4 +41,11 @@ public class Product extends BaseEntity{
     @ToString.Exclude
     private Provider provider;
 
+    @ManyToMany
+    @ToString.Exclude
+    private List<Producer> producers=new ArrayList<>();
+
+    public void addProducer(Producer producer){
+        this.producers.add(producer);
+    }
 }
