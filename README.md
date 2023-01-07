@@ -1,20 +1,29 @@
 # 오늘의 집 클론코딩 팀 프로젝트
 
-#### 프로젝트 기간 : 2022.12~ 2023.01 (2주)
+<br><br>
 
-#### Language : java, SQL
+## 프로젝트 정보
 
-#### Tools : Inteli j , MySQL Workbench, SpringBoot 2.7.5
+#### 1. 프로젝트 기간 : 2022.12~ 2023.01 (2주)
 
-#### DataBase : MySQL<br>
+#### 2. Language : java, SQL
 
-#### Environment : AWS(프리티어) EC2 Ubuntu 18.0.4, RDS, ROUTE53, S3
+#### 3. Tools : Inteli j , MySQL Workbench, SpringBoot 2.7.5
 
-#### Skill Set : JWT, Spring Security, JdbcTemplate, BeanValidation
+#### 4. DataBase : MySQL<br>
 
-#### API 명세서 : https://docs.google.com/spreadsheets/d/1SXbu_G3MzdjnHe1dAhFsKCaYNRuAiPw_zs1ee79t3QU/edit?usp=sharing
+#### 5. Environment : AWS(프리티어) EC2 Ubuntu 18.0.4, RDS, ROUTE53, S3
 
-#### ERD
+#### 6. Skill Set : JWT, Spring Security, JdbcTemplate, BeanValidation
+
+#### 7. API 명세서 : https://docs.google.com/spreadsheets/d/1SXbu_G3MzdjnHe1dAhFsKCaYNRuAiPw_zs1ee79t3QU/edit?usp=sharing
+
+#### 8. 프로젝트 링크 : https://prod.baliserver.shop
+
+#### 9. ERD
+
+![todayHouse_20230107_221457](https://user-images.githubusercontent.com/108322891/211152584-5707e4c4-396e-47c4-be72-33f7e20c01a0.png)
+
 ----
 <br>
 
