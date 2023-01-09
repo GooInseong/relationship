@@ -6,21 +6,28 @@
 
 #### 1. 프로젝트 기간 : 2022.12~ 2023.01 (2주)
 
-#### 2. Language : java, SQL
+#### 2. 참여인원
+- IOS : 노균옥
+- 백앤드 : 구인성
 
-#### 3. Tools : Inteli j , MySQL Workbench, SpringBoot 2.7.5
+#### 3. 역할
+- AWS EC2 인스턴스, RDS, S3, 가비아 도메인, SSL, ERD 작성, API 명세서 작성, API 구축 담당
 
-#### 4. DataBase : MySQL<br>
+#### 4. Language : java, SQL
 
-#### 5. Environment : AWS(프리티어) EC2 Ubuntu 18.0.4, RDS, ROUTE53, S3
+#### 5. Tools : Inteli j , MySQL Workbench, SpringBoot 2.7.5
 
-#### 6. Skill Set : JWT, Spring Security, JdbcTemplate, BeanValidation
+#### 6. DataBase : MySQL<br>
 
-#### 7. API 명세서 : https://docs.google.com/spreadsheets/d/1SXbu_G3MzdjnHe1dAhFsKCaYNRuAiPw_zs1ee79t3QU/edit?usp=sharing
+#### 7. Environment : AWS(프리티어) EC2 Ubuntu 18.0.4, RDS, ROUTE53, S3
 
-#### 8. 프로젝트 링크 : https://prod.baliserver.shop
+#### 8. Skill Set : JWT, Spring Security, JdbcTemplate, BeanValidation
 
-#### 9. ERD
+#### 9. API 명세서 : https://docs.google.com/spreadsheets/d/1SXbu_G3MzdjnHe1dAhFsKCaYNRuAiPw_zs1ee79t3QU/edit?usp=sharing
+
+#### 10. 프로젝트 링크 : https://prod.baliserver.shop
+
+#### 11. ERD
 
 ![todayHouse_20230107_221457](https://user-images.githubusercontent.com/108322891/211152584-5707e4c4-396e-47c4-be72-33f7e20c01a0.png)
 
