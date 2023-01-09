@@ -19,7 +19,7 @@
 
 #### 6. DataBase : MySQL<br>
 
-#### 7. Environment : AWS(프리티어) EC2 Ubuntu 18.0.4, RDS, ROUTE53, S3
+#### 7. Environment : AWS(프리티어) EC2 Ubuntu 18.0.4, RDS, ROUTE53, S3, NGINX
 
 #### 8. Skill Set : JWT, Spring Security, JdbcTemplate, BeanValidation
 
