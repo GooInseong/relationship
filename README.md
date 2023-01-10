@@ -25,7 +25,7 @@
 
 #### 9. API 명세서 : https://docs.google.com/spreadsheets/d/1SXbu_G3MzdjnHe1dAhFsKCaYNRuAiPw_zs1ee79t3QU/edit?usp=sharing
 
-#### 10. 프로젝트 링크 : https://prod.baliserver.shop
+#### 10. 프로젝트 링크 : https://prod.baliserver.shop/home
 
 #### 11. ERD
 
