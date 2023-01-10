@@ -28,8 +28,7 @@
 #### 10. 프로젝트 링크 : https://prod.baliserver.shop/home
 
 #### 11. ERD
-
-![todayHouse_20230107_221457](https://user-images.githubusercontent.com/108322891/211152584-5707e4c4-396e-47c4-be72-33f7e20c01a0.png)
+![todayHouse_20230110_222537](https://user-images.githubusercontent.com/108322891/211563631-765eee42-373a-4601-a594-a6620ca76cba.png)
 
 ----
 <br>
